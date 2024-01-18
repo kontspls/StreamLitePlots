@@ -59,7 +59,7 @@ if show_file:
 # Create sidebar Selectbox to select type of visualisation
 with (st.sidebar):
     type_of_plot = st.selectbox(
-        "What kind of visualization would you like to see?", (
+        "Please select visualization type", (
             "Scatter Plot",
             "Timeline",
             "Histogram",
