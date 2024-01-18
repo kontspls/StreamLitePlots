@@ -15,16 +15,16 @@ with intro_info:
         Its purpose is to efficiently display a selection of common plots. 
         
         While originally created for the datasets of a specific company, it is capable of 
-        producing plots for most datasets in .csv format.  All visualizations provide interactive functionality.
+        producing plots for most datasets in .csv format. All visualizations provide interactive functionality.
         
-        It's essential to note that this app is not optimized for handling large datasets. 
+        Please note that this app is not optimized for handling large datasets. 
         Users are advised to have some familiarity with their dataset before loading it into the app, 
         as certain visualizations can be computationally intensive when dealing with sizable datasets or variables
         with certain format types. 
         
         To begin, upload your file below and select your choices as they appear. You can also rerun the app 
         or change themes through the options button in the top right corner. 
-        For easier navigation between graphs, consider minimizing both this introduction, the file uploader,
+        For easier navigation between graphs, consider folding this introduction container, the file uploader,
         and the file viewer after uploading your file.    
         """
     )
