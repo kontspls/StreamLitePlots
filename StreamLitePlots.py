@@ -46,7 +46,7 @@ if base_sheet is not None:
 
 # Warn and prevent continuation of the script when no file is uploaded
 elif base_sheet is None:
-    st.warning("Please enter a files before we can continue.")
+    st.warning("Please upload a file before we can continue.")
     st.cache_data.clear()
     st.stop()
 
