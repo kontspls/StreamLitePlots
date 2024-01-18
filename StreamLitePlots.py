@@ -23,7 +23,7 @@ with intro_info:
         with certain format types. 
         
         To begin, upload your file below and select your choices as they appear. You can also rerun the app 
-        or change themes through the options button in the top right corner. 
+        or change themes via the options button in the top right corner. 
         For easier navigation between graphs, consider folding this introduction container, the file uploader,
         and the file viewer after uploading your file.    
         """
