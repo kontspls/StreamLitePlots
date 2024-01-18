@@ -66,7 +66,7 @@ with (st.sidebar):
             "Categorical Variables Charts"
         ),
         index=None,
-        placeholder="Select Graph Type...",
+        placeholder="Select type...",
     )
 
 if type_of_plot == "Scatter Plot":
