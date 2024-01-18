@@ -404,17 +404,24 @@ if type_of_plot == "Categorical Variables Charts":
                 st.stop()
 
         with cattab2:
-            # Plot pie chart and catch error
-            try:
-                draw_pie_chart(bar_needed_data, bar_var_x, bar_var_y)
-            except ValueError:
-                st.warning(
-                    """
-                    One of  the variables has a different format type. 
-                    Please remove the variable to continue.
-                    """
-                )
-                st.stop()
+            st.info(
+                """
+                Remember that the pie chart can be computationally 
+                intensive, especially if both the x variable and the variable selected for values are not categorical!
+                """
+            )
+            if st.button("Got it, show me anyway"):
+                # Plot pie chart and catch error
+                try:
+                    draw_pie_chart(bar_needed_data, bar_var_x, bar_var_y)
+                except ValueError:
+                    st.warning(
+                        """
+                        One of  the variables has a different format type. 
+                        Please remove the variable to continue.
+                        """
+                    )
+                    st.stop()
 
     # The user has not selected dates
     else:
